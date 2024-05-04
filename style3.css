@@ -78,14 +78,14 @@ nav{
   #check{
     display: none;
   }
-  @media (max-width: 768px){
+  @media only screen and (max-width: 600px){
     
     .nav ul li a{
       font-size: 16px;
       color: #08A708;
     }
   }
-  @media (max-width: 768px){
+ @media only screen and (max-width: 600px){
     .checkbtn{
       display: block;
     }
@@ -276,7 +276,7 @@ button:hover{
     height: 150px;
     margin-bottom: 30px;
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .container1 {
         justify-content: center;
     }
@@ -394,7 +394,7 @@ button:hover{
 }
 
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .container2 {
         justify-content: center;
         text-align: center;
@@ -474,7 +474,7 @@ button:hover{
     float: left;
 }
 
-@media (max-width: 768px) { /* Adjust this breakpoint as needed */
+@media only screen and (max-width: 600px) { /* Adjust this breakpoint as needed */
     .CUSTOM {
         width: 100%; /* Make it full width on mobile */
         max-width: none; /* Remove the max-width */
@@ -519,7 +519,7 @@ button:hover{
     margin-left: 2%;
 }
 
-@media (max-width: 768px) { /* Adjust this breakpoint as needed */
+@media only screen and (max-width: 600px) { /* Adjust this breakpoint as needed */
     .alteration {
         width: 100% ;
         max-width: none; /* Remove the max-width */
@@ -615,7 +615,7 @@ button:hover{
     width: 300px;
 }
 
-@media (max-width: 768px) { /* Adjust this breakpoint as needed */
+@media only screen and (max-width: 600px) { /* Adjust this breakpoint as needed */
     .contract {
         width: 100%;
         max-width: none; /* Remove the max-width */
@@ -756,7 +756,7 @@ button:hover{
     justify-content: center;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .container {
         align-items: center;
         justify-content: center ;
@@ -897,7 +897,7 @@ a:hover {
     padding: 5px;
 }
 
-@media(max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .footer-content:nth-child(2) {
         display: none; /* Hide the Quick Links section */
     }
